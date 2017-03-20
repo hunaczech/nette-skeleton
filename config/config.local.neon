@@ -1,0 +1,8 @@
+parameters:
+
+doctrine:
+	user: root
+	password: root
+	dbname: prototype
+	metadata:
+		App: %appDir%

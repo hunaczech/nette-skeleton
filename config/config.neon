@@ -1,0 +1,14 @@
+includes:
+	- extensions.neon
+	- services.neon
+	- console.neon
+
+parameters:
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+
+session:
+	expiration: 14 days
